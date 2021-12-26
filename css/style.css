@@ -27,6 +27,9 @@ ul,li {
   background: #f9f9f9;
   padding: 20px;
   border: 2px solid #eee;
+  position: fixed;
+  right: 5%;
+  top: 20px;
 }
 .wrap {
   margin-bottom: 20px;
@@ -40,22 +43,19 @@ ul,li {
   margin-right: 20px;
   border: 1px solid #CCC;
   position: relative;
+  padding: 10px;
+  background: #ffffff;
 }
 .list-item.focus {
   background: #eeeeee;
   border: 2px solid blue;
 }
-.list-label {
+
+.list-item label {
   position: absolute;
   display: block;
   width: 100%;
   height: 100%;
-}
-
-
-
-.list-item-name {
-  margin: 0;
 }
 /* input[type="radio"] {
   display: none;
@@ -68,3 +68,10 @@ ul,li {
   margin-top: 20px;
 }
 
+
+
+.checklist-item {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #bebebe;
+}
