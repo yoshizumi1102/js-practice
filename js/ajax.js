@@ -27,13 +27,14 @@
         <p class="name">${dataVal[i][2]}</p>
         <p class="price">${dataVal[i][3]}円</p>
       </li>`;
+
       // プロセッサーカテゴリーに追加
       if(dataVal[i][1] == "プロセッサー"){
         listProseccor.append($_node);
       }
       // オペレーティングシステムに追加
       if(dataVal[i][1] == "オペレーティングシステム"){
-        var type = "memory";
+        var type = "system";
         listSystem.append($_node);
       }
 
